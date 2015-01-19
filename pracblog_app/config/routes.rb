@@ -1,4 +1,16 @@
 Rails.application.routes.draw do
+  get 'index/show'
+
+  get 'index/new'
+
+  get 'index/edit'
+
+  get 'index/login'
+
+  get 'index/logout'
+
+  get 'index/destroy'
+
   get 'users/index'
 
   get 'users/show'
