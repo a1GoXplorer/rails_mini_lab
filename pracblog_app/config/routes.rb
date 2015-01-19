@@ -1,4 +1,18 @@
 Rails.application.routes.draw do
+  get 'articles/index'
+
+  get 'articles/show'
+
+  get 'articles/new'
+
+  get 'articles/edit'
+
+  get 'articles/signup'
+
+  get 'articles/login'
+
+  get 'articles/destroy'
+
   get 'index/show'
 
   get 'index/new'
