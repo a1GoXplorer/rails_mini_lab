@@ -1,7 +1,9 @@
-require 'bcrypt'
 
 class User < ActiveRecord::Base
 	has_many :articles
+
+	require 'bcrypt'
+
 
 BCrypt::Engine.cost = 12
 
