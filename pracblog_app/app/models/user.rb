@@ -23,7 +23,7 @@ def password=(unencrypted_password)
 		self.password_digest = nil
 	else
 		@password = unencrypted_password
-		self.password_digest = BCrypt:Password.create(@password)
+		self.password_digest = BCrypt::Password.create(@password)
 	end
 end
 
